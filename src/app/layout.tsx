@@ -29,7 +29,7 @@ export default function RootLayout({
               />
             </SignedIn>
             <SignedOut>{/* Signed out users get sign in button */}
-            Let's say you are signed out
+            Lets say you are signed out
             </SignedOut>
           </nav>
           {children}
