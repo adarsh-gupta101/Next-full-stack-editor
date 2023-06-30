@@ -21,7 +21,7 @@ export default function DocumentCard({ document }: { document: DocumentType }) {
     >
       <Link
         className="flex w-full items-center"
-        href={`/app/${document.publicId}`}
+        href={`/application/${document.publicId}`}
       >
         <FileText className="mr-2 h-4 w-4" />
         <div className="w-52 overflow-hidden truncate text-ellipsis whitespace-nowrap">
